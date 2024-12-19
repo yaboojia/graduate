@@ -49,6 +49,9 @@
 \PassOptionsToPackage{no-math}{fontspec}
 \PassOptionsToPackage{AutoFakeBold}{xeCJK}
 
+%yabo add
+\PassOptionsToPackage{AutoFakeSlant}{xeCJK}
+
 \usepackage{xifthen}
 
 \ifthenelse{\equal{\TwoSide}{true}}
